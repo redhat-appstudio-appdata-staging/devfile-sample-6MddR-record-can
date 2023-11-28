@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-tyqr
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads-stage/ktsao-tenant/devfile-sample/devfile-sample-tyqr@sha256:06851eca43b1d6a396937c1aac87db1f2fac7ed2e37b24fdebb4ce31e43df277
         name: my-nodejs
         ports:
         - containerPort: 3001
