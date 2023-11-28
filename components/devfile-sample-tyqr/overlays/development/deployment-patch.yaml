@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-tyqr
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/ktsao-tenant/devfile-sample/devfile-sample-tyqr@sha256:e8ca97a99fee80acc175fb8610cdb8024aa609f603384fec65dc3c8610587c94
+        name: my-nodejs
+        resources: {}
+status: {}
