@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: devfile-sample
   name: devfile-sample-tyqr
 spec:
-  replicas: 1
+  replicas: 2
   revisionHistoryLimit: 0
   selector:
     matchLabels:
